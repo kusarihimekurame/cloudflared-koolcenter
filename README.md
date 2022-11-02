@@ -10,7 +10,7 @@
 在Cloudflare Zeor Trust中添加public hostname就能访问对应的网站，如果套用application中的self-hosted就能用邮箱进行双重认证，并且只有指定的邮箱才能收到验证码，比其他的内网穿透软件更安全。
 
 ## 架构及其替换方法
-适用于ax68u路由器以及架构为armhf，带有koolcenter软件中心的路由器
+适用于`ax68u`路由器以及架构为`armhf`，带有koolcenter软件中心的路由器
 
 仓库里面`cloudflared`的核心程序是`armhf`架构，如果是其他架构的路由器可以参考
 
